@@ -1,0 +1,117 @@
+.headlogo{
+    width: 130px;
+    font-size: 18px;
+    font-weight:bold;
+    color: #0084ff;
+}
+body{
+    background-color: #F1F5FE;
+}
+
+.mainHeader
+{
+    padding:16px 78px;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+}
+
+.stories{
+    margin:0;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.allbutton{
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+    padding:6px 14px;
+    background-color: #0088ff;
+    color:#fff;
+    width: auto;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.ai{
+    border: 1px solid #0084ff;
+    color: #0084ff;
+    border-radius:15px;
+    padding:3px 15px;
+    background-color: #f1f5fe;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card{
+    /* border:1px solid red; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:200px;
+    height:300px;
+}
+
+.introai{
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+
+}
+
+
+.insidecard{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+#categories{
+    border: none;
+    color: #000;
+    padding-top: 0;
+    padding-left: 8px;
+}
+.Trending{
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+.filterby{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.imgcard{
+    display: flex;
+}
+.footer{
+    background-color: #172146;
+    padding:20px 16% ;
+}
+.mainCard{
+    display: flex;
+    justify-content: space-between;
+}
+.checkdata{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    padding:10px 20px;
+}
+.author{
+    color:#0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.dateaug{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+.text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 4px 0;
+}
